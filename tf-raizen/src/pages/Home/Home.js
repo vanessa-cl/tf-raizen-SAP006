@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import gsap, {Power3} from 'gsap'
 import SearchSection from '../../components/SearchSection/SearchSection';
 import Footer from '../../components/Footer/Footer'
-import './Home.scss'
+import './Home.scss';
 
 function Home() {
   let info = gsap.timeline()
@@ -69,7 +69,7 @@ function Home() {
 
             <section className= "flex-container">
               <div className="boxes">
-                <button>Loren</button>
+                <Link to="/newticket">Abrir chamado</Link>
                 Loren Ipsum
               </div>
               <div className="boxes">
