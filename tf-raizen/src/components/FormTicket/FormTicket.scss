@@ -1,37 +1,37 @@
 .form-body {
-    display: flex;
-    flex-direction: column;
-    background-color: grey;
-    width: 50rem;
-    height: auto;
-    padding: 1.5rem;
-    border-radius: 0.9rem;
-    margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  width: 50rem;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 0.9rem;
+  margin: 5rem;
 }
 
 .form-label {
-    font-family: 'Poppins';
-    text-align: left;
-	margin: 2.5rem 1.2rem;
-    font-size: 1.5rem;
+  font-family: 'Poppins';
+  text-align: left;
+  margin: 2.5rem 1.2rem;
+  font-size: 1.5rem;
 }
 
 .form-input {
-    width: 20rem;
-    height: 2rem;
+  width: 20rem;
+  height: 2rem;
 }
 
 .form-main-label {
-    background-color: greenyellow;
-    width: 20rem;
-    height: auto;
-    padding: 2rem;
-    margin-left: 1rem;
-    margin-bottom: -8rem;
-    z-index: 1;
+  background-color: greenyellow;
+  width: 20rem;
+  height: auto;
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-bottom: -8rem;
+  z-index: 1;
 }
 
 .form-button {
-    width: 10rem;
-    height: 2rem;
+  width: 10rem;
+  height: 2rem;
 }
