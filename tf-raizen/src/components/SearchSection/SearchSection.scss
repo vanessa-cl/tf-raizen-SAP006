@@ -8,13 +8,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 0 0 60px 60px;
-    // .wave {
-    //     position: absolute;
-    //     width: 100%;
-    //     height: 143px;
-    //     bottom: 0;
-    //     left: 0;
-    // }
+    
     .search {
         width: 100%;
         height: 10vh;
@@ -25,7 +19,7 @@
         h1{
            font-size: 1.3em;
            margin-bottom: .5em;
-        //    color: var(--white);
+           color: var(--white);
         }
         .search-input {
             outline: none;

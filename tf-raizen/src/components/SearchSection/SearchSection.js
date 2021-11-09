@@ -1,14 +1,12 @@
-import './WelcomeSection.scss'
-// import wave from '../../images/wave.png'
+import './SearchSection.scss'
 
 
-function WelcomeSection() {
+function SearchSection() {
     return (
       <section className="wave-container">
-          {/* <div className="wave" style={{ backgroundImage: `url(${wave})` }}>
-          </div> */}
            <div class="search">
-                <h1>Como podemos ajudar?</h1>
+                <h1 className="title">Olá, Maria</h1>
+                <h1 className="title">Como podemos ajudar?</h1>
                 <input 
                   type="text" 
                   className="search-input"
@@ -19,4 +17,4 @@ function WelcomeSection() {
     )
 }
 
-export default WelcomeSection
+export default SearchSection
