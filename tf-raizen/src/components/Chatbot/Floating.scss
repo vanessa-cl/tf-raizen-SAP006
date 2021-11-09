@@ -1,0 +1,29 @@
+.chatbot-floating {
+  text-align: right;
+
+  .bubble {
+    background: #fbb514;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 185px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .arrow {
+    background: #fbb514;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 30px;
+    top: -7px;
+  }
+
+  .image {
+    border-radius: 150px;
+    margin: 20px;
+  }
+}
