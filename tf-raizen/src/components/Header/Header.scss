@@ -6,11 +6,12 @@
     justify-content: space-between;
     height: 5em;
     padding: .5em;
+    background-color: var(--main-blue);
     -webkit-box-shadow: 0px 0px 8px -3px #000000; 
      box-shadow: 0px 0px 8px -3px #000000;
-    // background-image: ;
     .logo-image {
       width: 200px;
+      z-index: 2;
     }
     .links {
       margin: 0 20px;
