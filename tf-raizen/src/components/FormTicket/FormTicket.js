@@ -3,6 +3,8 @@ import { useState } from 'react';
 import "./FormTicket.scss"
 import validateForm from "./Validate.js";
 
+import Modal from "../Modal/Modal.js"
+
 const FormTicket = () => {
     const [ticketInfo, setTicketInfo] = useState({
         title: "",
@@ -12,6 +14,7 @@ const FormTicket = () => {
     })
 
     const [messages, setMessages] = useState("")
+    const [modal, setModal] = useState({ text: "", show: true });
 
     const handleChange = (e) => {
         return setTicketInfo(() => {
@@ -24,7 +27,7 @@ const FormTicket = () => {
 
     const handleSend = (e) => {
         e.preventDefault();
-
+        setModal({ text: "teste", show: true });
     }
 
     useEffect(() => {
@@ -56,6 +59,12 @@ const FormTicket = () => {
                     <button className="form-button">Cancelar</button>
                     <button className="form-button" onClick={handleSend}>Enviar solicitação</button>
                 </section>
+                <Modal
+                    children={modal.text}
+                    hide={modal.show}
+                    setHide={setModal}
+
+                ></Modal>
             </form>
         </>
     )
