@@ -1,6 +1,7 @@
 import {useEffect} from 'react'
 import gsap, {Power3} from 'gsap'
 import Title from '../../components/Title/Title'
+import TicketTable from '../../components/Tables/TicketTable'
 import './MyTickets.scss'
 
 function MyTickets() {
@@ -13,14 +14,14 @@ function MyTickets() {
 
     return (
       <>
-        <main className="container">
+        <main className="mytickets-container">
           <article className="page">
             <section className="inner">
-                
+                <Title lineContent="Meus Tickets" />
             </section>
             <section>
-                <p className="info">
-                  
+                <p className="table">
+                  <TicketTable />
                 </p>
             </section>
           </article>

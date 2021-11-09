@@ -5,16 +5,20 @@ import Floating from './Floating';
 import theme from './Chatbot.theme';
 import './Chatbot.scss';
 
-
 function Chatbot() {
   return (
     <ThemeProvider theme={theme}>
       <ReactSimpleChatBot
         floating={true}
-        floatingStyle={{width: '150px', height: '150px', background:'none', boxShadow: 'none' }}
-        floatingIcon={<Floating/>}
-        bubbleStyle={{textAlign: 'justify'}}
-        avatarStyle={{width: '60px', height: '60px'}}
+        floatingStyle={{
+          width: '150px',
+          height: '150px',
+          background: 'none',
+          boxShadow: 'none',
+        }}
+        floatingIcon={<Floating />}
+        bubbleStyle={{ textAlign: 'center', fontSize: '15px' }}
+        avatarStyle={{ width: '60px', height: '60px' }}
         botAvatar="/bot.png"
         userAvatar="/userAvatar.png"
         steps={[
@@ -42,8 +46,7 @@ function Chatbot() {
           },
           {
             id: '5',
-            message:
-              'Fico feliz em ajudar!',
+            message: 'Fico feliz em ajudar!',
             end: true,
           },
         ]}

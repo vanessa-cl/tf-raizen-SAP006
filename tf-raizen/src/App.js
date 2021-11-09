@@ -4,6 +4,7 @@ import MyTickets from './pages/MyTickets/MyTickets';
 import './global.scss';
 import Header from './components/Header/Header';
 import Chatbot from './components/Chatbot/Chatbot';
+import FormTicket from './components/FormTicket/FormTicket';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/mytickets" element={<MyTickets />} />
+        <Route path="/newticket" element={<FormTicket />} />
       </Routes>
       <Chatbot />
     </BrowserRouter>
