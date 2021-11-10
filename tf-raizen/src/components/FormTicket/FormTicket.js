@@ -78,7 +78,7 @@ const FormTicket = () => {
                     <span className="focus-border"></span>
                 </div>
                 <label className="form-label" htmlFor="file">Selecione um arquivo</label>
-                <label for="file-input" className="file-icon">
+                <label htmlFor="file-input" className="file-icon">
                     <i className="fas fa-paperclip file-icon"></i>
                     <i className="fas fa-camera file-icon"></i>
                     <p className="form-notice">Limite máximo de 10MB</p>
