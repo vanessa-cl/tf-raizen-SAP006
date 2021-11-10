@@ -6,8 +6,9 @@
   
     display: flex;
     justify-content: center;
+    flex-direction: column;
     .page {
-      position: absolute;
+      /*position: absolute;*/
       .inner {
         display: flex;
         justify-content: center;
@@ -17,7 +18,9 @@
           letter-spacing: .1rem;
           .line-wrap {
             overflow: hidden;
-            height: 66px;
+            background: #CBEA00;
+            padding: 1rem 6rem;
+            margin-top: -35%;
           }
         }
       }
@@ -32,6 +35,8 @@
         align-items: center;
         justify-content: flex-end;
       }
-      
+      .footer-myTicket{
+        margin-top: 45%;
+      }
     }
   }
