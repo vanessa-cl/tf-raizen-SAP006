@@ -1,0 +1,29 @@
+.broken-lamp {
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.not-found {
+  color: #34c2d6;
+  font-size: 70%;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 100;
+  margin-top: -15%;
+
+  p {
+    font-size: 15em;
+    color: #6e6e6e;
+  }
+
+  h2,
+  h3 {
+    font-size: 2em;
+    color: #34c2d6;
+  }
+
+  .header {
+    display: none;
+  }
+}
