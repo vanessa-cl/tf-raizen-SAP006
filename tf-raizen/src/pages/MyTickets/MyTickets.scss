@@ -17,22 +17,10 @@
           font-size: 2em;
           letter-spacing: .1rem;
           .line-wrap {
-            // overflow: hidden;
-            // background: #CBEA00;
-            // padding: 1rem 6rem;
-            // margin-top: -35%;
-            .line {
-              background-color: var(--lime-green);
-              width: 35rem;
-              height: auto;
-              padding: 1rem;
-              margin-left: -7rem;
-              margin-top: -5rem;
-              color: var(--dark-grey);
-              font-size: 2rem;
-              text-align: center;
-              font-weight: bolder;
-            }
+            overflow: hidden;
+            background-color: var(--lime-green);
+            padding: 1rem 6rem;
+            margin-top: 15%;
           }
         }
       }
@@ -52,3 +40,21 @@
       }
     }
   }
+
+
+  // overflow: hidden;
+            // background: #CBEA00;
+            // padding: 1rem 6rem;
+            // margin-top: -35%;
+            // .line {
+            //   background-color: var(--lime-green);
+            //   width: 35rem;
+            //   height: auto;
+            //   padding: 1rem;
+            //   margin-left: -7rem;
+            //   margin-top: -5rem;
+            //   color: var(--dark-grey);
+            //   font-size: 2rem;
+            //   text-align: center;
+            //   font-weight: bolder;
+            // }
