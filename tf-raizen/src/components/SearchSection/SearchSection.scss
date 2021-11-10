@@ -1,14 +1,3 @@
-.wave-container {
-  width: 100%;
-  height: 50vh;
-  background-color: var(--main-blue);
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0 0 60px 60px;
-  .search {
 .portal {
     color: var(--white);
     background-color: var(--main-blue);
@@ -17,12 +6,21 @@
     margin-top: -.7em;
 }
 .search-container {
+    // width: 100%;
+    // height: 40vh;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // background-color: var(--main-blue);
+    // border-radius: 0 0 60px 60px;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
+    background-color: var(--main-blue);
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main-blue);
     border-radius: 0 0 60px 60px;
     
     .search {
@@ -57,6 +55,19 @@
             font-size: 1em;
         }
     }
+}
 
-  }
 
+
+// .wave-container {
+//     width: 100%;
+//     height: 50vh;
+//     background-color: var(--main-blue);
+//     background-size: cover;
+//     background-attachment: fixed;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 0 0 60px 60px;
+//     .search {
+//   }
