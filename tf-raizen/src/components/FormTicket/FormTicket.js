@@ -50,7 +50,7 @@ const FormTicket = () => {
     return (
         <>
             <form className="form-body">
-                <label className="form-main-label">Novo chamado</label>
+                <h1 className="form-main-label">Novo chamado</h1>
                 <label className="form-label" htmlFor="sector">Setor</label>
                 <div className="input-area">
                     <select className="form-input effect sector" name="sector" autoComplete="off" required onChange={handleChange}>
@@ -85,7 +85,6 @@ const FormTicket = () => {
                 </label>
                 <input id="file-input" className="form-input" name="file" type="file" method="POST" encType="multipart/form-data" onChange={handleChange}></input>
                 <button className="form-button send" onClick={handleSend}>Enviar solicitação</button>
-
             </form>
             <Footer />
         </>

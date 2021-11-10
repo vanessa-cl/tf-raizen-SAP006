@@ -1,10 +1,11 @@
+
 .form-body {
     display: flex;
     flex-direction: column;
     background-color: var(--light-grey);
     width: 50rem;
     height: 46rem;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 2.5rem;
     border-radius: 0.9rem;
     margin: 5rem;
 }
@@ -46,7 +47,7 @@
     width: 35rem;
     height: auto;
     padding: 1rem;
-    margin-left: -7rem;
+    margin-left: -9rem;
     margin-top: -5rem;
     color: var(--dark-grey);
     font-size: 2rem;

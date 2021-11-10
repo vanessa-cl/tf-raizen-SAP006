@@ -1,5 +1,4 @@
 .mytickets-container {
-    position: relative;
     width: 100%;
     min-width: 100%;
     margin: 0 auto;
@@ -7,54 +6,31 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    .page {
-      .inner {
-        display: flex;
-        justify-content: center;
-        
-        h1 {
-          font-family: 'Poppins';
-          font-size: 2em;
-          letter-spacing: .1rem;
-          .line-wrap {
-            overflow: hidden;
-            background-color: var(--lime-green);
-            padding: 1rem 6rem;
-            margin-top: 15%;
-          }
-        }
-      }
-      .info {
-        font-family: 'Poppins';
-        margin-top: 20%;
-        width: 300px;
-        font-weight: 300;
-        line-height: 24px;
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-      }
-      .footer-myTicket{
-        margin-top: 45%;
+
+    .title {
+      background-color: var(--lime-green);
+      width: 35rem;
+      height: auto;
+      padding: 1rem;
+      margin-top: 5rem;
+      color: var(--dark-grey);
+      font-size: 2rem;
+      text-align: center;
+      font-weight: bolder;
+    }
+    .link-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .link {
+        margin: 2.5em auto;
+        text-decoration: none;
+        color: var(--white);
+        font-size: 1.3em;
+        background-color: var(--main-blue);
+        padding: 0.5em 1em;
+        border-radius: 5px;
       }
     }
   }
-
-
-  // overflow: hidden;
-            // background: #CBEA00;
-            // padding: 1rem 6rem;
-            // margin-top: -35%;
-            // .line {
-            //   background-color: var(--lime-green);
-            //   width: 35rem;
-            //   height: auto;
-            //   padding: 1rem;
-            //   margin-left: -7rem;
-            //   margin-top: -5rem;
-            //   color: var(--dark-grey);
-            //   font-size: 2rem;
-            //   text-align: center;
-            //   font-weight: bolder;
-            // }

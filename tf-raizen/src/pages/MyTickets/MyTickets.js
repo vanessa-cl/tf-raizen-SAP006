@@ -3,6 +3,7 @@ import gsap, {Power3} from 'gsap'
 import TicketTable from '../../components/Tables/TicketTable'
 import Footer from '../../components/Footer/Footer';
 import './MyTickets.scss'
+import { Link } from 'react-router-dom';
 
 function MyTickets() {
   let info = gsap.timeline()
@@ -14,14 +15,17 @@ function MyTickets() {
     return (
       <>
         <main className="mytickets-container">
-          <article className="page">
-
             <section>
-                <p className="table">
-                  <TicketTable />
-                </p>
+              <h1 className="title">Minhas Solicitações</h1>
             </section>
-          </article>
+            <section className="table">
+                  <TicketTable />
+            </section>
+          <section className="link-container">
+              <Link to="/" className="link">
+                    Voltar para a Pagina Inicial
+              </Link>
+          </section>
           <section className="footer-myTicket">
             <Footer />
           </section>
