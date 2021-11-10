@@ -54,43 +54,43 @@ function Home() {
                   <p className="link-info">Novo Chamado</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={remote} alt="icon" />
                   </Link>
                   <p className="link-info">Conexão Trabalho Remoto</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={humanResources} alt="icon" />
                   </Link>
                   <p className="link-info">Portal do RH</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={admSupport} alt="icon" />
                   </Link>
                   <p className="link-info">Protocolos do Suporte ADM</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={unblockUsers} alt="icon" />
                   </Link>
                   <p className="link-info">Desbloqueio de Usuários</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={university} alt="icon" />
                   </Link>
                   <p className="link-info">Universidade Raízen</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={workFlow} alt="icon" />
                   </Link>
                   <p className="link-info">Fluxo de Trabalho</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={busReservation} alt="icon" />
                   </Link>
                   <p className="link-info">Reserva de Micro-ônibus</p>
@@ -102,25 +102,25 @@ function Home() {
             <section className= "flex-container">
               <div className="boxes">
                 <p className="link-info">Solicitação do Fretado</p>
-                <Link className="links" to="">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={busReservation2} alt="icon"/>     
                 </Link>
               </div>
               <div className="boxes">
                 <p className="link-info">Contrato</p>
-                <Link className="links" to="/">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={contract} alt="icon"/>     
                 </Link>
               </div>
               <div className="boxes">
                 <p className="link-info">Reserva de Lugar no Micro</p>
-                <Link className="links" to="/">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={reservation} alt="icon"/>     
                 </Link>
               </div>
               <div className="boxes">
                 <p className="link-info">Solicitação de Férias</p>
-                <Link className="links" to="/">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={vacation} alt="icon"/>     
                 </Link>
               </div>

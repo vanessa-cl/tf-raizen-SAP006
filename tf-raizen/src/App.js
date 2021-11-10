@@ -5,6 +5,7 @@ import './global.scss';
 import Header from './components/Header/Header';
 import Chatbot from './components/Chatbot/Chatbot';
 import FormTicket from './components/FormTicket/FormTicket';
+import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/mytickets" element={<MyTickets />} />
         <Route path="/newticket" element={<FormTicket />} />
+        <Route path="/underconstruction" element={<UnderConstruction />} />
       </Routes>
       <Chatbot />
     </BrowserRouter>

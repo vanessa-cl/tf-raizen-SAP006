@@ -12,8 +12,8 @@ function Header() {
                     <img className="logo-image" src={logo} alt="Logo CSC"/>
                 </NavLink>
                 </div>
-                 <div>
-                     <h2 className="phrase">A energia que mobiliza</h2>
+                <div>
+                     <h2 className="portal-name">Nome do Portal</h2>
                 </div>
                 <div className="links-container">
                     <NavLink className="links" to="/" exact>
