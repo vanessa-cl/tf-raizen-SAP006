@@ -2,6 +2,8 @@ import {useEffect} from 'react'
 import gsap, {Power3} from 'gsap'
 import Title from '../../components/Title/Title'
 import TicketTable from '../../components/Tables/TicketTable'
+import SearchTicket from '../../components/SearchSection/SectionTicket';
+import Footer from '../../components/Footer/Footer';
 import './MyTickets.scss'
 
 function MyTickets() {
@@ -15,9 +17,12 @@ function MyTickets() {
     return (
       <>
         <main className="mytickets-container">
+          <section>
+            <SearchTicket />
+          </section>
           <article className="page">
             <section className="inner">
-                <Title lineContent="Meus Tickets" />
+                <Title lineContent="Meus Chamados" />
             </section>
             <section>
                 <p className="table">
@@ -25,6 +30,9 @@ function MyTickets() {
                 </p>
             </section>
           </article>
+          <section className="footer-myTicket">
+            <Footer />
+          </section>
         </main>
       </>
     )
