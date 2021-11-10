@@ -1,0 +1,23 @@
+.dropdown-nav {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    background-color: var(--white);
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.show {
+    display: flex;
+}
+
+.bell {
+    width: 40px;
+}
