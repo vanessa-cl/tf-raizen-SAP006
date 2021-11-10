@@ -1,5 +1,6 @@
 import {NavLink} from 'react-router-dom'
 import logo from '../../images/logo.png'
+import bell from '../../images/bell.png'
 import './Header.scss'
 
 function Header() {
@@ -11,12 +12,12 @@ function Header() {
                     <img className="logo-image" src={logo} alt="Logo CSC"/>
                 </NavLink>
                 </div>
+                 <div>
+                     <h2 className="phrase">A energia que mobiliza</h2>
+                </div>
                 <div className="links-container">
                     <NavLink className="links" to="/" exact>
-                        Home
-                    </NavLink>
-                    <NavLink className="links" to="/mytickets" exact>
-                        Meus Tickets
+                        <img className="bell" src={bell} alt="bell"/>
                     </NavLink>
                 </div>
             </header>

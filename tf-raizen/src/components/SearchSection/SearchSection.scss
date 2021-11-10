@@ -1,4 +1,10 @@
-.wave-container {
+.portal {
+    color: var(--white);
+    background-color: var(--main-blue);
+    font-weight: 600;
+    padding-left: 1.3em;
+}
+.search-container {
     width: 100%;
     height: 50vh;
     background-color: var(--main-blue);
@@ -16,10 +22,18 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        position: relative;
         h1{
            font-size: 1.3em;
            margin-bottom: .5em;
            color: var(--white);
+        }
+        .fa-search {
+            color: var(--dark-grey);
+            position: absolute;
+            top: 80px;
+            left: 650px;
+            text-align: end;
         }
         .search-input {
             outline: none;
