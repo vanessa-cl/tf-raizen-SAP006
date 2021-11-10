@@ -10,7 +10,7 @@
 ## 📑 Índice
 - [1. O produto](#1-produto)
 - [2. Nosso Objetivo](#2-objetivo)
-- [3. EXPERIÊNCIA DO USUÁRIO] (#-EXPERIÊNCIA-DO-USUÁRIO)
+- [3. EXPERIÊNCIA DO USUÁRIO](#3-Experiência)
 - [4. Layout](#4-layout)
 - [5. Melhorias Futuras](#8-melhorias)
 - [6. Autoras](#9-autoras)
@@ -45,7 +45,7 @@ Utilizamos o **FORMS** para criar um formulário onde questionamos ......
 
 ### Feedbacks dos Usuários:
 Foi realizada uma pesquisa com os USÚARIOS da empresa com a finalidade de identificar o sentimento dos mesmos ao utilizar a plataforma, momento em que foram relatadas as dores e sugestões.
-![Feedback dos Usuários](https://ik.imagekit.io/llneva6qvex/Talent/6_8KcfF8TeH.PNG?updatedAt=1636504091585)
+![Feedback dos Usuários](https://ik.imagekit.io/bga7odqg1yl/HACKATON/Feedbackusu_S0LKIsui__.jpg?updatedAt=1636587548997)
 
 ### Informações que gostariam de visualizar no site:
 - _Local para buscas;_
@@ -67,8 +67,7 @@ Foi realizada uma pesquisa com os USÚARIOS da empresa com a finalidade de ident
 ## Fluxograma
 Depois de todas as pesquisas, verificamos quais seriam os nossos Itens de ação e realizamos um fluxograma para verificar a rota do usuário dentro da aplicação, sempre nos preocupando com a melhor experiência do usuário.
 
-![Itens de Ação](https://ik.imagekit.io/llneva6qvex/Talent/5_eMAGVALIR.PNG?updatedAt=1636503073116)
-![Fluxograma](https://ik.imagekit.io/llneva6qvex/Talent/fluxograma_mb3TF01RN.PNG?updatedAt=1636418263772)
+![Fluxograma](https://ik.imagekit.io/bga7odqg1yl/HACKATON/Fluxograma_2CjZzVeg_.png?updatedAt=1636587014037)
 
 
 ### 🎨 4. LAYOUT
