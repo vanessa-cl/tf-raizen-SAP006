@@ -16,8 +16,8 @@ function MyTickets() {
       <>
         <main className="mytickets-container">
           <article className="page">
-            <section className="inner">
-                <Title lineContent="Meus Tickets" />
+            <section className="inner wave-container-chamados">
+                <Title lineContent="Meus Chamados" />
             </section>
             <section>
                 <p className="table">

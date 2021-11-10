@@ -8,6 +8,7 @@
     justify-content: center;
     .page {
       position: absolute;
+      width: 100%;
       .inner {
         display: flex;
         justify-content: center;
@@ -15,6 +16,13 @@
           font-family: 'Poppins';
           font-size: 2em;
           letter-spacing: .1rem;
+          align-items: center;
+          background-color: #CBEA00;
+          width: 65%;
+          height: 57px;
+          text-align: center;
+          border-radius: 25px;
+          color: #6E6E6E;
           .line-wrap {
             overflow: hidden;
             height: 66px;
@@ -31,6 +39,17 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+      }
+      .wave-container-chamados{
+          width: 100%;
+          height: 30vh;
+          background-color: var(--main-blue);
+          background-size: cover;
+          background-attachment: fixed;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 0 0 60px 60px;
       }
       
     }

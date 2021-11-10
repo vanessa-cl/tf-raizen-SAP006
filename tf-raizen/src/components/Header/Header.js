@@ -16,7 +16,7 @@ function Header() {
                         Home
                     </NavLink>
                     <NavLink className="links" to="/mytickets" exact>
-                        Meus Tickets
+                        Meus Chamados
                     </NavLink>
                 </div>
             </header>

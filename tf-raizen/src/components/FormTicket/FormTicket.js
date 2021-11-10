@@ -14,7 +14,7 @@ const FormTicket = () => {
     })
 
     const [messages, setMessages] = useState("")
-    const [modal, setModal] = useState({ text: "", show: true });
+    const [modal, setModal] = useState({ text: "", show: false });
 
     const handleChange = (e) => {
         return setTicketInfo(() => {
