@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import './FormTicket.scss';
-import validateForm from './Validate.js';
+import "./FormTicket.scss";
+import validateForm from "./Validate.js";
+import Footer from "../Footer/Footer";
 
 const FormTicket = () => {
   const [ticketInfo, setTicketInfo] = useState({
@@ -29,81 +30,51 @@ const FormTicket = () => {
   useEffect(() => {
     return messages;
   }, [messages]);
+  
+    return (
+        <>
 
-  return (
-    <>
-      <label className="form-main-label">Novo chamado</label>
-      <form className="form-body">
-        <label className="form-label" htmlFor="title">
-          Título
-        </label>
-        <input
-          className="form-input"
-          name="title"
-          type="text"
-          autoComplete="off"
-          placeholder="Informe o título do chamado"
-          required
-          onChange={handleChange}
-        ></input>
-        <label htmlFor="sector">Setor</label>
-        <select
-          className="form-input"
-          name="sector"
-          autoComplete="off"
-          required
-          onChange={handleChange}
-        >
-          <option value="">Selecione um setor</option>
-          <option value="recursos-humanos">Recursos humanos</option>
-          <option value="tecnologia-da-informação">
-            Tecnologia da informação
-          </option>
-          <option value="transações-financeiras">Transações financeiras</option>
-          <option value="facilities">Facilities</option>
-        </select>
-        <label className="form-label" htmlFor="description">
-          Descrição
-        </label>
-        <input
-          className="form-input"
-          name="description"
-          type="text"
-          placeholder="Descrição do chamado"
-          required
-          onChange={handleChange}
-        ></input>
-        <label className="form-label" htmlFor="number">
-          Telefone
-        </label>
-        <input
-          className="form-input"
-          type="number"
-          placeholder="Ex: 19 3403-5000"
-          required
-          onChange={handleChange}
-        ></input>
-        <label className="form-label" htmlFor="file">
-          Selecione um arquivo
-        </label>
-        <input
-          className="form-input"
-          name="file"
-          type="file"
-          method="POST"
-          encType="multipart/form-data"
-          onChange={handleChange}
-        ></input>
-        <label className="form-label">Limite máximo de 10MB</label>
-        <section className="buttons">
-          <button className="form-button">Cancelar</button>
-          <button className="form-button" onClick={handleSend}>
-            Enviar solicitação
-          </button>
-        </section>
-      </form>
-    </>
-  );
-};
+            <form className="form-body">
+                <label className="form-main-label">Novo chamado</label>
+                <label className="form-label" htmlFor="sector">Setor</label>
+                <div className="input-area">
+                    <select className="form-input effect sector" name="sector" autoComplete="off" required onChange={handleChange}>
+                        <option value="">Selecione um setor</option>
+                        <option value="recursos-humanos">Recursos humanos</option>
+                        <option value="tecnologia-da-informação">Tecnologia da informação</option>
+                        <option value="transações-financeiras">Transações financeiras</option>
+                        <option value="facilities">Facilities</option>
+                    </select>
+                    <span className="focus-border"></span>
+                </div>
+                <label className="form-label" htmlFor="contact">Como podemos te contatar?</label>
+                <div className="input-area">
+                    <input className="form-input effect" type="text" placeholder="Insira um endereço de email ou um número de telefone/Whatsapp" required onChange={handleChange}></input>
+                    <span className="focus-border"></span>
+                </div>
+                <label className="form-label" htmlFor="title">Título</label>
+                <div className="input-area">
+                    <input className="form-input effect" name="title" type="text" autoComplete="off" placeholder="Informe o título do chamado" required onChange={handleChange}></input>
+                    <span className="focus-border"></span>
+                </div>
+                <label className="form-label" htmlFor="description">Descrição</label>
+                <div className="input-area">
+                    <input className="form-input effect" name="description" type="text" autoComplete="off" placeholder="Detalhe a sua requisição/problema" required onChange={handleChange}></input>
+                    <span className="focus-border"></span>
+                </div>
+                <label className="form-label" htmlFor="file">Selecione um arquivo</label>
+                <label for="file-input" className="file-icon">
+                    <i className="fas fa-paperclip file-icon"></i>
+                    <i className="fas fa-camera file-icon"></i>
+                    <p className="form-notice">Limite máximo de 10MB</p>
+                </label>
+                <input id="file-input" className="form-input" name="file" type="file" method="POST" encType="multipart/form-data" onChange={handleChange}></input>
+                <button className="form-button send" onClick={handleSend}>Enviar solicitação</button>
+            </form>
+            <Footer />
+        </>
+    )
+}
 
 export default FormTicket;
+

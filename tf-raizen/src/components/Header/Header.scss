@@ -1,17 +1,40 @@
 .header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 5em;
-  padding: 0.5em;
-  background-color: var(--main-blue);
-  -webkit-box-shadow: 0px 0px 8px -3px #000000;
-  box-shadow: 0px 0px 8px -3px #000000;
-  .logo-image {
-    width: 200px;
-    z-index: 2;
-  }
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+    padding: .5em;
+    background-color: var(--main-blue);
+    .logo-image {
+      width: 220px;
+      z-index: 2;
+    }
+    .phrase {
+      color: var(--white);
+      margin-right: 144px;
+      font-weight: 600;
+    }
+    .links {
+      margin: 0 20px;
+      text-decoration: none;
+      color: var(--text-color);
+      font-size: 12px;
+      font-weight: 600;
+      font-family: "Poppins";
+      .bell {
+        width: 40px;
+      }
+      .logout {
+        border: var(--white);
+        color: var(--white);
+        width: 3em;
+      }
+      .links.logout {
+        color: var(--white)
+      }
+    }
+
   .links {
     margin: 0 20px;
     text-decoration: none;
