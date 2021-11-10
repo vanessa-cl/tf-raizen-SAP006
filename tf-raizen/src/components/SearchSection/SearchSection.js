@@ -23,15 +23,18 @@ function SearchSection({searchText, setSearchText}) {
               <div className="search">
                 <h1 className="h1">Olá, Maria</h1>
                 <h1 className="h1">Como podemos ajudar?</h1>
-                <div className="search input">
-                  <input
-                    type="text"
-                    className="search-input"
-                    placeholder="Digite para encontrar..."
-                    value={searchText}
-                    onChange={onChange}>
-                    </input>
-                    <i className="fas fa-search"></i>
+
+                <div class="barra-search"> 
+                <input
+                  type="text"
+                  className="search-input"
+                  placeholder="Digite para encontrar..."
+                  value={searchText}
+                  onChange={onChange}
+                  
+                /> 
+                <i className="fas fa-search"></i>
+
                 </div>
                 </div>
             </div>

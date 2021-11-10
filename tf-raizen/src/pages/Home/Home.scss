@@ -10,9 +10,8 @@
   }
 
   .grid-container {
-    width: 80%;
+    width: 75%;
     margin: 3em auto;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -25,9 +24,9 @@
         align-self: center;
         justify-content: space-between;
         flex-direction: column;
-        align-self: center;
         width: 10em;
-        height: 10em;
+        height: 9.1em;
+        margin-bottom: 5%;
     }
     .link-info {
         text-align: center;

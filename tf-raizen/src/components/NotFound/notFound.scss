@@ -5,7 +5,7 @@
 }
 
 .not-found {
-  color: #34c2d6;
+  color: var(--light-blue);
   font-size: 70%;
   line-height: 1.5;
   text-align: center;
@@ -14,13 +14,13 @@
 
   p {
     font-size: 15em;
-    color: #6e6e6e;
+    color: var(--dark-grey);
   }
 
   h2,
   h3 {
     font-size: 2em;
-    color: #34c2d6;
+    color: var(--light-blue);
   }
 
   .header {
