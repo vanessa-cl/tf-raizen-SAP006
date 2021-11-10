@@ -5,7 +5,7 @@ import './global.scss';
 import Header from './components/Header/Header';
 import NotFound from './components/NotFound/notfound';
 import Chatbot from './components/Chatbot/Chatbot';
-import FormTicket from './components/FormTicket/FormTicket';
+// /*import FormTicket from './components/FormTicket/FormTicket.js'*/
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/mytickets" element={<MyTickets />} />
-        <Route path="/newticket" element={<FormTicket />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Chatbot />
@@ -24,3 +23,5 @@ function App() {
 }
 
 export default App;
+
+//<Route path="/newticket" element={<FormTicket />} />

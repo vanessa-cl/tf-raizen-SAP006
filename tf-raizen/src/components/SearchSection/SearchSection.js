@@ -1,6 +1,5 @@
 
 import './SearchSection.scss';
-import phone from '../../images/phone.png'
 
 function SearchSection({searchText, setSearchText}) {
     function onChange(event) {
