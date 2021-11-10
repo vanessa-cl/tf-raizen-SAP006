@@ -19,7 +19,7 @@ const Dropdown = () => {
       />
       <div className={`nav-links ${openDropdown === true ? " show" : ""}`}>
           <div class="bar"> 
-          <p class="pendencies"> Pendências </p></div>
+          <p class="pendencies"> Notificações </p></div>
         <p class="notifications"> Reserva de assento no micro-ônibus concluída com sucesso!</p>
             </div>
     </nav>
