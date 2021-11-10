@@ -1,9 +1,9 @@
 .form-body {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: var(--light-grey);
     width: 50rem;
-    height: auto;
+    height: 46rem;
     padding: 1.5rem;
     border-radius: 0.9rem;
     margin: 5rem;
@@ -12,26 +12,84 @@
 .form-label {
     font-family: 'Poppins';
     text-align: left;
-	margin: 2.5rem 1.2rem;
+	margin: 1.2rem;
     font-size: 1.5rem;
 }
 
-.form-input {
-    width: 20rem;
-    height: 2rem;
+.input-area, .form-input, .form-button { 
+    width: 45rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.input-area {
+    position: relative;
+}
+
+.form-input, .form-button {
+    width: 45rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.sector {
+    background-color: var(--white);
 }
 
 .form-main-label {
-    background-color: greenyellow;
-    width: 20rem;
+    background-color: var(--lime-green);
+    width: 35rem;
     height: auto;
-    padding: 2rem;
-    margin-left: 1rem;
-    margin-bottom: -8rem;
-    z-index: 1;
+    padding: 1rem;
+    margin-left: -7rem;
+    margin-top: -5rem;
+    color: var(--dark-grey);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .form-button {
-    width: 10rem;
-    height: 2rem;
+    background-color: var(--main-blue);
+    color: var(--white);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.form-notice, .file-icon {
+    margin: 0 0.7rem;
+    cursor: pointer;
+}
+
+.form-notice {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#file-input {
+    display: none;
+}
+
+.file-icon {
+    font-size: 2rem;
+}
+
+.effect ~ .focus-border {
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+    width: 0; 
+    height: 2px; 
+    background-color: #3399FF; 
+    transition: 0.4s;
+}
+.effect:focus ~ .focus-border {
+    width: 100%; 
+    transition: 0.4s; 
+    left: 0;
 }
