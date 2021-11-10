@@ -28,12 +28,18 @@
            color: var(--white);
            font-weight: normal;
         }
+        .input {
+            float: right;
+            width: 80%;
+        }
         .fa-search {
+            float: left;
+            width: 50%;
             color: var(--dark-grey);
-            position: absolute;
-            top: 80px;
-            left: 650px;
             text-align: end;
+            display: flex;
+            align-items: flex-end;
+
         }
         .search-input {
             outline: none;

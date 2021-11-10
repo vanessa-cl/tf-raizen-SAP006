@@ -16,6 +16,7 @@
     "react-simple-chatbot": "^0.6.1",
     "react-transition": "^1.0.3",
     "styled-components": "^5.3.3",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^1.1.2",
     "yup": "^0.32.11"
   },

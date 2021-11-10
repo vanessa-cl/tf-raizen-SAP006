@@ -13,7 +13,7 @@ function Header() {
                 </NavLink>
                 </div>
                 <div>
-                     <h2 className="portal-name">Nome do Portal</h2>
+                     <h2 className="portal-name">Energia que Mobiliza</h2>
                 </div>
                 <div className="links-container">
                     <NavLink className="links" to="/" exact>

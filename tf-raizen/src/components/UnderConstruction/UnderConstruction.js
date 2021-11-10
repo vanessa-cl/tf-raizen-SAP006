@@ -13,7 +13,7 @@ function UnderConstruction() {
             <div className="items">
                 <h2 className="message">Esta página está em construção</h2>
                 <Link to="/" className="link">
-                    Voltar para a Home
+                    Voltar para a Pagina Inicial
                 </Link>
             </div>
         </main>

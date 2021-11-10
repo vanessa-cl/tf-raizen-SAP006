@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import gsap, { Power3 } from 'gsap';
 import SearchSection from '../../components/SearchSection/SearchSection';
 import SearchResults from '../../components/SearchResults/SearchResults';
 import Footer from '../../components/Footer/Footer';
+import ImageSection from '../../components/ImageSection/ImageSection';
 import './Home.scss';
 
 import solititations from '../../images/1.png'
@@ -19,7 +20,8 @@ import busReservation2 from '../../images/11.png'
 import contract from '../../images/12.png'
 import reservation from '../../images/13.png'
 import vacation from '../../images/14.png'
-import MessageSection from '../../components/MessageSection/MessageSection';
+
+
 
 function Home() {
   const [searchText, setSearchText] = useState('');
@@ -126,7 +128,7 @@ function Home() {
                 </Link>
               </div>
             </section> 
-            <MessageSection />
+            <ImageSection />
             <Footer />
         </main> 
       </>
