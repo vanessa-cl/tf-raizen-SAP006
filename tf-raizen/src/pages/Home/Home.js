@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import gsap, { Power3 } from 'gsap';
 import SearchSection from '../../components/SearchSection/SearchSection';
 import SearchResults from '../../components/SearchResults/SearchResults';
 import Footer from '../../components/Footer/Footer';
+import ImageSection from '../../components/ImageSection/ImageSection';
 import './Home.scss';
 
 import solititations from '../../images/1.png'
@@ -19,6 +20,8 @@ import busReservation2 from '../../images/11.png'
 import contract from '../../images/12.png'
 import reservation from '../../images/13.png'
 import vacation from '../../images/14.png'
+
+
 
 function Home() {
   const [searchText, setSearchText] = useState('');
@@ -72,7 +75,7 @@ function Home() {
                   <p className="link-info">Protocolos do Suporte ADM</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={unblockUsers} alt="icon" />
                   </Link>
                   <p className="link-info">Desbloqueio de Usuários</p>
@@ -90,7 +93,7 @@ function Home() {
                   <p className="link-info">Fluxo de Trabalho</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/underconstruction">
                     <img className="link-img" src={busReservation} alt="icon" />
                   </Link>
                   <p className="link-info">Reserva de Micro-ônibus</p>
@@ -102,29 +105,30 @@ function Home() {
             <section className= "flex-container">
               <div className="boxes">
                 <p className="link-info">Solicitação do Fretado</p>
-                <Link className="links" to="">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={busReservation2} alt="icon"/>     
                 </Link>
               </div>
               <div className="boxes">
                 <p className="link-info">Contrato</p>
-                <Link className="links" to="/">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={contract} alt="icon"/>     
                 </Link>
               </div>
               <div className="boxes">
                 <p className="link-info">Reserva de Lugar no Micro</p>
-                <Link className="links" to="/">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={reservation} alt="icon"/>     
                 </Link>
               </div>
               <div className="boxes">
                 <p className="link-info">Solicitação de Férias</p>
-                <Link className="links" to="/">
+                <Link className="links" to="/underconstruction">
                   <img className="link-img" src={vacation} alt="icon"/>     
                 </Link>
               </div>
             </section> 
+            <ImageSection />
             <Footer />
         </main> 
       </>
