@@ -10,7 +10,7 @@
 ## 📑 Índice
 - [1. O produto](#1-produto)
 - [2. Nosso Objetivo](#2-objetivo)
-- [3. EXPERIÊNCIA DO USUÁRIO] (#-EXPERIÊNCIA-DO-USUÁRIO)
+- [3. EXPERIÊNCIA DO USUÁRIO](3#-EXPERIÊNCIA-DO-USUÁRIO)
 - [4. Layout](#4-layout)
 - [5. Melhorias Futuras](#8-melhorias)
 - [6. Autoras](#9-autoras)
@@ -97,13 +97,30 @@ Os protótipos foram pensandos para facilitar a navegação e em trazer uma resp
 ## 👩‍💻 6. AUTORAS:
 Projeto realizado para o Bootcamp da **LABORATÓRIA** no Talent Fest com o apoio da **Raízen.**
 <h2 align="center">
-    <a style="color:aqua" href="https://github.com/biancacristinaalves" target="_blank">Bianca Alves</a>,
-    <a style="color:aqua" href="https://github.com/bea-ferraz">Beatriz Ferraz</a>
-    <a style="color:aqua" href="https://github.com/isisnoron">Isis Noronha</a>,
-    <a style="color:aqua" href="https://github.com/JulianaMonteiro4">Juliana Monteiro</a>,
-    <a style="color:aqua" href="https://github.com/lanizia">Lanizia Souza</a>,
-    <a style="color:aqua" href="https://github.com/lathne">Laura Neumann</a>,
-    <a style="color:aqua" href="https://github.com/vanessa-cl">Vanessa Lima</a>.
+  <div style="display: inline_block"><br>
+      <a href="https://github.com/bea-ferraz">
+        <img align="center" alt="Beatriz" height="90" width="80" src="https://ik.imagekit.io/bga7odqg1yl/HACKATON/79225626_stOW8ya_w.jpg?updatedAt=1636573406183">
+      </a>
+      <a href="https://github.com/biancacristinaalves">
+        <img align="center" alt="Bianca" height="90" width="80" src="https://ik.imagekit.io/bga7odqg1yl/HACKATON/83368857_InnJYbhrfM_.jpg?updatedAt=1636574142502">
+      </a>
+      <a href="https://github.com/isisnoron">
+        <img align="center" alt="Isis" height="90" width="80" src="https://ik.imagekit.io/bga7odqg1yl/HACKATON/83436399_eUshx82Hc.jpg?updatedAt=1636573406726">
+      </a>
+      <a href="https://github.com/JulianaMonteiro4">
+        <img align="center" alt="Juliana-Monteiro" height="90" width="80" src="https://ik.imagekit.io/bga7odqg1yl/HACKATON/83264950_ztk-knOly8v.jpg?updatedAt=1636573406467">
+      </a>
+      <a href="https://github.com/lanizia">
+        <img align="center" alt="lanizia" height="90" width="80" src="https://ik.imagekit.io/bga7odqg1yl/HACKATON/83224369_UdozwD7efX.jpg?updatedAt=1636573406271">
+      </a>
+      <a href="https://github.com/lathne">
+        <img align="center" alt="Bea-Js" height="90" width="80" src="https://ik.imagekit.io/bga7odqg1yl/HACKATON/62152335_JbMWmsppQhs.jpg?updatedAt=1636573405543">
+      </a>
+      <a href="https://github.com/vanessa-cl">
+        <img align="center" alt="Vanessa" height="90" width="80" src="https://ik.imagekit.io/bga7odqg1yl/HACKATON/83243667_fI3cdtkBT.jpg?updatedAt=1636573406441">
+      </a>
+
+  </div>
 </h2>
 
 ![Final]()
