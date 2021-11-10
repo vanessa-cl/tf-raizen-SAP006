@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom"
 import underconstruction from '../../images/underconstruction.png'
 import Footer from "../Footer/Footer"
+import './UnderConstruction.scss'
 
 function UnderConstruction() {
     return (
+        <>
         <main className="under-construction">
             <div className="items">
-                <img src={underconstruction} alt="Ilustração da Pagina em construção"/>
+                <img classname="img" src={underconstruction} alt="Ilustração da Pagina em construção"/>
             </div>
             <div className="items">
                 <h2 className="message">Esta página está em construção</h2>
@@ -14,8 +16,9 @@ function UnderConstruction() {
                     Voltar para a Home
                 </Link>
             </div>
-            <Footer />
         </main>
+            <Footer />
+        </>
     )
 } 
 

@@ -7,7 +7,7 @@ function MessageSection() {
                 <h3 className="message">Energia que mobiliza</h3>
             </div>
             <div className="flex-items">
-                <img className="" src={integration} alt="Ilustração mostrando integração"/>
+                <img className="image" src={integration} alt="Ilustração mostrando integração"/>
             </div>
         </section>
     )

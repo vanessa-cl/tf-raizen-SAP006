@@ -19,6 +19,7 @@ import busReservation2 from '../../images/11.png'
 import contract from '../../images/12.png'
 import reservation from '../../images/13.png'
 import vacation from '../../images/14.png'
+import MessageSection from '../../components/MessageSection/MessageSection';
 
 function Home() {
   const [searchText, setSearchText] = useState('');
@@ -125,6 +126,7 @@ function Home() {
                 </Link>
               </div>
             </section> 
+            <MessageSection />
             <Footer />
         </main> 
       </>
