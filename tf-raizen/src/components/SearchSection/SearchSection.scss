@@ -1,15 +1,3 @@
-.wave-container {
-  width: 100%;
-  height: 50vh;
-  background-color: var(--main-blue);
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0 0 60px 60px;
-}
-
 .portal {
     color: var(--white);
     background-color: var(--main-blue);
@@ -34,18 +22,29 @@
         justify-content: center;
         flex-direction: column;
         position: relative;
+        
         .h1{
            font-size: 1.3em;
            margin-bottom: .5em;
            color: var(--white);
            font-weight: normal;
         }
+        .input {
+            float: right;
+            width: 80%;
+        }
         .fa-search {
+            float: left;
+            width: 50%;
             color: var(--dark-grey);
             position: absolute;
-            top: 100%;
-            left: 73%;
+            top: 85%;
+            left: 75%;
             text-align: end;
+            display: flex;
+            align-items: center;
+            align-self: center;
+
         }
         .search-input {
             outline: none;
@@ -72,4 +71,3 @@
         }
       }
     }
-  

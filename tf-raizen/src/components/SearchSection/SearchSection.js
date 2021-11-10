@@ -1,11 +1,20 @@
-
+import { useEffect, useState } from 'react';
+import gsap, { Power3 } from 'gsap';
 import './SearchSection.scss';
 
 function SearchSection({searchText, setSearchText}) {
+    
     function onChange(event) {
       const { value } = event.target;
       setSearchText(value);
     }
+
+    let h1 = gsap.timeline();
+
+    useEffect(() => {
+      h1.from('.h1', { duration: 1, y: 30, opacity: 0 });
+    }, []);
+
 
     return (
       <section >
