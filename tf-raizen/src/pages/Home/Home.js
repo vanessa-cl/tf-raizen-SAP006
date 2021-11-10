@@ -1,11 +1,13 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import gsap, { Power3 } from 'gsap';
 import SearchSection from '../../components/SearchSection/SearchSection';
 import Footer from '../../components/Footer/Footer';
 import './Home.scss';
+import SearchResults from '../../components/SearchResults/SearchResults';
 
 function Home() {
+  const [searchText, setSearchText] = useState('');
   let info = gsap.timeline();
 
   useEffect(() => {
@@ -16,9 +18,14 @@ function Home() {
     <>
       <main className="home-container">
         <section>
-          <SearchSection />
+          <SearchSection
+            searchText={searchText}
+            setSearchText={setSearchText}
+          />
         </section>
 
+
+{searchText ? <SearchResults text={searchText}/> : 
         <section className="grid-container">
           <div className="grid-items">
             <Link className="links" to="/">
@@ -65,7 +72,7 @@ function Home() {
               <img src="" alt="icon" />
             </Link>
           </div>
-        </section>
+        </section>}
 
         <section className="flex-container">
           <div className="boxes">
