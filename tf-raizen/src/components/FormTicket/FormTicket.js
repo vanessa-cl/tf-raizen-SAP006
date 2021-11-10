@@ -1,37 +1,36 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 import { useState } from 'react';
-import "./FormTicket.scss"
+import "./FormTicket.scss";
 import validateForm from "./Validate.js";
 import Footer from "../Footer/Footer";
 
 const FormTicket = () => {
-    const [ticketInfo, setTicketInfo] = useState({
-        title: "",
-        sector: "",
-        description: "",
-        contact: "",
-    })
+  const [ticketInfo, setTicketInfo] = useState({
+    title: '',
+    sector: '',
+    description: '',
+    contact: '',
+  });
 
-    const [messages, setMessages] = useState("")
+  const [messages, setMessages] = useState('');
 
-    const handleChange = (e) => {
-        return setTicketInfo(() => {
-            const auxValues = { ...ticketInfo };
-            auxValues[e.target.name] = e.target.value;
-            setMessages(() => validateForm(auxValues).message)
-            return auxValues;
-        });
-    };
+  const handleChange = (e) => {
+    return setTicketInfo(() => {
+      const auxValues = { ...ticketInfo };
+      auxValues[e.target.name] = e.target.value;
+      setMessages(() => validateForm(auxValues).message);
+      return auxValues;
+    });
+  };
 
-    const handleSend = (e) => {
-        e.preventDefault();
+  const handleSend = (e) => {
+    e.preventDefault();
+  };
 
-    }
-
-    useEffect(() => {
-        return messages
-    }, [messages])
-
+  useEffect(() => {
+    return messages;
+  }, [messages]);
+  
     return (
         <>
 
@@ -78,3 +77,4 @@ const FormTicket = () => {
 }
 
 export default FormTicket;
+
