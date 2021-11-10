@@ -85,7 +85,7 @@
     left: 50%; 
     width: 0; 
     height: 2px; 
-    background-color: #3399FF; 
+    background-color: var(--main-blue);
     transition: 0.4s;
 }
 
@@ -93,4 +93,38 @@
     width: 100%; 
     transition: 0.4s; 
     left: 0;
+}
+
+.swal-modal {
+    border: 3px solid var(--main-blue);
+}
+
+.swal-button {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-blue);
+    font-size: 1rem;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.input-area:focus {
+    background-color: var(--white);
+}
+
+form > div > input[type="text"]:valid, 
+form > div > .sector:valid {
+    background: url('https://webdevtrick.com/wp-content/uploads/check-icon.svg');
+    background-color: var(--white);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: 41rem 0.5rem;
+}
+
+form > div > input[type="text"]:invalid:focus,
+form > div > .sector:invalid:focus {
+    background: url('https://webdevtrick.com/wp-content/uploads/xicon.svg');
+    background-color: var(--white);
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: 41rem 0.5rem;
 }
