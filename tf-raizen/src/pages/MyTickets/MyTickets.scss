@@ -1,4 +1,4 @@
-.container {
+.mytickets-container {
     position: relative;
     width: 100%;
     min-width: 100%;
@@ -12,8 +12,8 @@
         display: flex;
         justify-content: center;
         h1 {
-          font-family: 'Bebas Neue';
-          font-size: 52px;
+          font-family: 'Poppins';
+          font-size: 2em;
           letter-spacing: .1rem;
           .line-wrap {
             overflow: hidden;
