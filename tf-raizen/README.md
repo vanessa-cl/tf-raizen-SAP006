@@ -10,7 +10,7 @@
 ## 📑 Índice
 - [1. O produto](#1-produto)
 - [2. Nosso Objetivo](#2-objetivo)
-- [ EXPERIÊNCIA DO USUÁRIO] (#-EXPERIÊNCIA DO USUÁRIO)
+- [3. EXPERIÊNCIA DO USUÁRIO] (#-EXPERIÊNCIA-DO-USUÁRIO)
 - [4. Layout](#4-layout)
 - [5. Melhorias Futuras](#8-melhorias)
 - [6. Autoras](#9-autoras)
