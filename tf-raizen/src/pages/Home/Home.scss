@@ -37,11 +37,13 @@
   }
 
   .flex-container {
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     height: 40vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-bottom: 7em;
     .boxes {
         display: flex;
         align-items: center;

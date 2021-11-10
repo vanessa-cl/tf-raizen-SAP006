@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import gsap, { Power3 } from 'gsap';
 import SearchSection from '../../components/SearchSection/SearchSection';
+import SearchResults from '../../components/SearchResults/SearchResults';
 import Footer from '../../components/Footer/Footer';
 import './Home.scss';
-import SearchResults from '../../components/SearchResults/SearchResults';
 
 import solititations from '../../images/1.png'
 import newCall from '../../images/2.png'
@@ -15,7 +15,6 @@ import unblockUsers from '../../images/6.png'
 import university from '../../images/7.png'
 import workFlow from '../../images/8.png'
 import busReservation from '../../images/9.png'
-
 import busReservation2 from '../../images/11.png'
 import contract from '../../images/12.png'
 import reservation from '../../images/13.png'
@@ -49,7 +48,7 @@ function Home() {
                   <p className="link-info">Minhas Solicitações</p>
                 </div>
                 <div className="grid-items">
-                  <Link className="links" to="/">
+                  <Link className="links" to="/newTicket">
                     <img className="link-img" src={newCall} alt="icon" />
                   </Link>
                   <p className="link-info">Novo Chamado</p>

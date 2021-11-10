@@ -8,7 +8,7 @@ function SearchSection({searchText, setSearchText}) {
     }
 
     return (
-      <section>
+      <section >
             <h2 class="portal">Portal de Serviços</h2>
             <div  className="search-container">
               <div className="search">
@@ -17,7 +17,7 @@ function SearchSection({searchText, setSearchText}) {
                 <input
                   type="text"
                   className="search-input"
-                  placeholder="Search"
+                  placeholder="Digite para encontrar..."
                   value={searchText}
                   onChange={onChange}
                 />
