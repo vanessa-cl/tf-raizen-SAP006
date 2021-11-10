@@ -6,12 +6,15 @@
 .nav-links {
     display: none;
     flex-direction: column;
-    position: relative;
-    justify-content: flex-end;
-    background-color: var(--white);
-    min-width: 160px;
-    padding: 12px 16px;
+    // justify-content: flex-end;
+    background-color: var(--light-grey);
+    padding: 12px 16 px;
     z-index: 1;
+    position: fixed;
+    height: 30vh;
+    width: 160px;
+    right: 0;
+    align-items: center;
 }
 
 .show {
@@ -20,4 +23,21 @@
 
 .bell {
     width: 40px;
+}
+
+.bar{
+    background-color: var(--red);
+    width: 160px;
+    text-align: center;
+}
+
+.notifications{
+    color: var(--dark-grey);
+    font-size: 14px;
+    padding: 7%;
+    text-align: justify;
+}
+
+.pendencies{
+    color: var(--white)
 }
