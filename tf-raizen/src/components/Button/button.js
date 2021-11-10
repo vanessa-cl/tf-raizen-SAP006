@@ -8,7 +8,6 @@ export function Button ({ type,className,onClick,id }) {
             className={className}
             onClick={onClick}
             id={id}
-         
         >  
         </button>
 

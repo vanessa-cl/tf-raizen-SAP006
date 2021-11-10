@@ -1,4 +1,3 @@
-
 .header {
     width: 100%;
     display: flex;
@@ -35,5 +34,13 @@
         color: var(--white)
       }
     }
+
+  .links {
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins';
   }
-  
+}
