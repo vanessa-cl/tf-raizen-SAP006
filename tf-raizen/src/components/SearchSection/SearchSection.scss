@@ -31,20 +31,34 @@
         .fa-search {
             color: var(--dark-grey);
             position: absolute;
-            top: 80px;
-            left: 650px;
+            top: 100%;
+            left: 73%;
             text-align: end;
         }
         .search-input {
             outline: none;
             border: none;
-            width: 50%;
+            width: 100%;
             padding: 1em;
             border-radius: 5px;
             -webkit-box-shadow: 0px 0px 8px -3px #000000; 
             box-shadow: 0px 0px 8px -3px #000000;
             font-size: 1em;
+
         }
+
+        .barra-search{
+            display: flex;
+            width: 55%;
+            display: flex;
+            border: 1px solid #5f6368;
+            box-shadow: none;
+            border-radius: 24px;
+            z-index: 3;
+            height: 44px;
+            margin: 0 auto;
+        }
+
     }
 
   }

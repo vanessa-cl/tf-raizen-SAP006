@@ -49,25 +49,25 @@ function Home() {
                 </div>
                 <div className="grid-items">
                   <Link className="links" to="/newTicket">
-                    <img className="link-img" src={newCall} alt="icon" />
+                  <img className="link-img" src={newCall} alt="icon" />
                   </Link>
                   <p className="link-info">Novo Chamado</p>
                 </div>
                 <div className="grid-items">
                   <Link className="links" to="/">
-                    <img className="link-img" src={remote} alt="icon" />
+                    <img className="link-img" src={remote} title="Citrix - Metaframe" alt="icon" />
                   </Link>
                   <p className="link-info">Conexão Trabalho Remoto</p>
                 </div>
                 <div className="grid-items">
                   <Link className="links" to="/">
-                    <img className="link-img" src={humanResources} alt="icon" />
+                    <img className="link-img" src={humanResources} title="Holerite, Férias, Ponto por Exceção" alt="icon" />
                   </Link>
                   <p className="link-info">Portal do RH</p>
                 </div>
                 <div className="grid-items">
                   <Link className="links" to="/">
-                    <img className="link-img" src={admSupport} alt="icon" />
+                    <img className="link-img" title="Sistema de geração e acompanhamento de protocolos do suporte administrativo" src={admSupport} alt="icon" />
                   </Link>
                   <p className="link-info">Protocolos do Suporte ADM</p>
                 </div>
@@ -79,13 +79,13 @@ function Home() {
                 </div>
                 <div className="grid-items">
                   <Link className="links" to="/">
-                    <img className="link-img" src={university} alt="icon" />
+                    <img className="link-img" title="Plataforma de aprendizado para funcionários" src={university} alt="icon" />
                   </Link>
                   <p className="link-info">Universidade Raízen</p>
                 </div>
                 <div className="grid-items">
                   <Link className="links" to="/">
-                    <img className="link-img" src={workFlow} alt="icon" />
+                    <img className="link-img" title="Processos para movimentar e contratar funcionários, Serviços RH" src={workFlow} alt="icon" />
                   </Link>
                   <p className="link-info">Fluxo de Trabalho</p>
                 </div>
