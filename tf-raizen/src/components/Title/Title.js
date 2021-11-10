@@ -13,9 +13,9 @@ function Title({lineContent}) {
     return (
       <h1 className="page-title">
         <div className="line-wrap">
-          <div  className="line">
+          <p className="line">
             {lineContent}
-          </div>
+          </p>
         </div>
       </h1>
     )

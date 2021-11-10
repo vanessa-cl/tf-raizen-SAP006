@@ -3,14 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5em;
+    height: 10vh;
     padding: .5em;
     background-color: var(--main-blue);
     .logo-image {
       width: 220px;
       z-index: 2;
     }
-    .phrase {
+    .portal-name {
       color: var(--white);
       margin-right: 144px;
       font-weight: 600;
@@ -22,9 +22,7 @@
       font-size: 12px;
       font-weight: 600;
       font-family: "Poppins";
-      .bell {
-        width: 40px;
-      }
+      
       .logout {
         border: var(--white);
         color: var(--white);
