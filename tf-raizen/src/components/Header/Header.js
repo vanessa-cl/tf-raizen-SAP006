@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import logo from '../../images/logo.png'
+import servizen from '../../images/Servízen.svg'
 import Dropdown from '../Dropdown/Dropdown';
 import './Header.scss';
 
@@ -14,7 +15,7 @@ function Header() {
                 </NavLink>
                 </div>
                 <div>
-                     <h2 className="portal-name">Energia que Mobiliza</h2>
+                    <img className="servizen-logo" src={servizen} alt="Logo CSC"/>
                 </div>
                 <Dropdown />
             </header>
@@ -22,4 +23,7 @@ function Header() {
     )
 }
 
-export default Header;
+export default Header
+
+
+{/* <h2 className="portal-name">Energia que Mobiliza</h2> */}

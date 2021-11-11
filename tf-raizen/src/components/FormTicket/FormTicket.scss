@@ -136,9 +136,10 @@ form > div > .sector:invalid:focus {
 
 @media screen and (max-width: 470px) {
     .form-body {
-        margin: 5rem 0;
+        margin: 5rem 2rem 0 0;
         width: 100vw;
-        height: 46rem;
+        height: 49rem;
+        padding: 2rem 1rem;
     }
 
     .form-main-label {

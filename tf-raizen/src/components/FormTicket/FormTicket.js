@@ -5,6 +5,7 @@ import validateForm from "./Validate.js";
 import Footer from "../Footer/Footer";
 import swal from 'sweetalert';
 import Chatbot from '../../components/Chatbot/Chatbot';
+import BackHome from '../BackHome/BackHome';
 
 const FormTicket = () => {
     const [ticketInfo, setTicketInfo] = useState({
@@ -88,6 +89,7 @@ const FormTicket = () => {
                 <button className="form-button send" onClick={handleSend}>Enviar solicitação</button>
             </form>
             <Chatbot />
+            <BackHome />
             <Footer />
         </>
     )

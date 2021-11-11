@@ -18,21 +18,6 @@
       text-align: center;
       font-weight: bolder;
     }
-    .link-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      .link {
-        margin: 2.5em auto;
-        text-decoration: none;
-        color: var(--white);
-        font-size: 1.3em;
-        background-color: var(--main-blue);
-        padding: 0.5em 1em;
-        border-radius: 5px;
-      }
-    }
   }
 
 @media screen and (max-width: 470px) {
@@ -44,4 +29,3 @@
   }
 
 }
-
