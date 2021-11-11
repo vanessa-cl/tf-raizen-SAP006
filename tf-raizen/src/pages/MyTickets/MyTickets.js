@@ -4,6 +4,7 @@ import TicketTable from '../../components/Tables/TicketTable'
 import Footer from '../../components/Footer/Footer';
 import './MyTickets.scss'
 import { Link } from 'react-router-dom';
+import Chatbot from '../../components/Chatbot/Chatbot';
 
 function MyTickets() {
   let info = gsap.timeline()
@@ -26,6 +27,7 @@ function MyTickets() {
                     Voltar para a Pagina Inicial
               </Link>
           </section>
+          <Chatbot />
           <section className="footer-myTicket">
             <Footer />
           </section>

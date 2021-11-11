@@ -4,7 +4,7 @@ import './ImageSection.scss'
 function ImageSection() {
     return (
         <section className="image-container">
-                <img className="image" src={integration} alt="Ilustração mostrando integração"/>
+                <img className="image-people" src={integration} alt="Ilustração mostrando integração"/>
         </section>
     )
 }

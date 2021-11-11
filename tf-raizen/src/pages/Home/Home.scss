@@ -61,3 +61,19 @@
   }
 
 }
+
+@media screen and (max-width: 470px) {
+
+  .home-container {
+
+    .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    margin: 2em auto;
+    }
+
+    .flex-container {
+      flex-wrap: wrap;
+      margin: 2rem auto;
+    }
+  }
+}

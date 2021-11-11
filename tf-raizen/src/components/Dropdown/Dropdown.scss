@@ -9,7 +9,7 @@
     // justify-content: flex-end;
     background-color: var(--light-grey);
     padding: 12px 16 px;
-    z-index: 1;
+    z-index: 4;
     position: fixed;
     height: 30vh;
     width: 160px;
@@ -40,4 +40,12 @@
 
 .pendencies{
     color: var(--white)
+}
+
+
+@media screen and (max-width: 470px) {
+    .nav-links {
+        position: absolute;
+        right: -0.5rem;
+    }
 }

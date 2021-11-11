@@ -42,3 +42,15 @@
     font-family: 'Poppins';
   }
 }
+
+@media screen and (max-width: 470px) {
+
+  .header {
+
+    .portal-name {
+      display: none;
+    }
+
+    
+  }
+}

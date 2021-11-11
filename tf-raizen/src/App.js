@@ -4,7 +4,6 @@ import MyTickets from './pages/MyTickets/MyTickets';
 import './global.scss';
 import Header from './components/Header/Header';
 import NotFound from './components/NotFound/notfound';
-import Chatbot from './components/Chatbot/Chatbot';
 import FormTicket from './components/FormTicket/FormTicket';
 import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 
@@ -19,7 +18,6 @@ function App() {
         <Route path="/underconstruction" element={<UnderConstruction />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Chatbot />
     </BrowserRouter>
   );
 }
