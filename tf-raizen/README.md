@@ -10,7 +10,7 @@
 ## 📑 Índice
 - [1. O produto](#1-produto)
 - [2. Nosso Objetivo](#2-objetivo)
-- [3. EXPERIÊNCIA DO USUÁRIO](#3-Experiência)
+- [3. Experiência do Usuário](#3-Experiência)
 - [4. Layout](#4-layout)
 - [5. Melhorias Futuras](#8-melhorias)
 - [6. Autoras](#9-autoras)
@@ -18,7 +18,7 @@
 ## 🌍 1. O PRODUTO
 O  Centro de Serviços Compartilhados (CSC) da Raízen é uma plataforma para atender os colaboradores internos, que reúne serviços de diversas áreas: Tecnologia da Informação, Transações Financeiras, Recursos Humanos e Facilities. Assim, de forma autônoma, os usuários podem resolver suas necessidades, por exemplo, reembolsos, holerites, instalação de software, entre outros.
 
-![Metas](https://ik.imagekit.io/llneva6qvex/Talent/1_o1hWudwX6AC.PNG?updatedAt=1636502932447)
+![Metas](https://ik.imagekit.io/bga7odqg1yl/HACKATON/Metas_QsnzFul-d.jpeg?updatedAt=1636589367112)
 
 ## 🌍 2. O DESAFIO
 Nosso DESAFIO foi repaginar o portal de autoatendimento, deixando o mesmo com um visual mais agradável, mais funcional e intuitivo para que os USUÁRIOS possam ter uma experiência inspiradora e com isso aumente a retenção de seu uso e consequentemente diminuam os índices de chamados por telefone. Para o sucesso do nosso DESAFIO concentramos nosso foco em UX/UI Design!!
@@ -28,26 +28,22 @@ Nosso DESAFIO foi repaginar o portal de autoatendimento, deixando o mesmo com um
 ## 🌍 3. NOSSO OBJETIVO
 Temos muitas ideias e trabalho, mas pouco tempo para desenvolvimento, como resolver isso?
 
-Colher feedbacks dos USÚARIOS sobre sua experiência atual na plataforma, para visualizar as principais dores e sugestões. PESQUISA é a chave!
+Colher feedbacks dos **USÚARIOS** sobre sua experiência atual na plataforma, para visualizar as principais dores e sugestões. **PESQUISA** é a chave!
 
 Promover uma melhor experiência para facilitar a vida do usuário no dia-a-dia. Para isso, oferecer um layout compatível com a nova marca do CSC Tornar as informações mais claras, visíveis e acessíveis em tela.
 
-Criar protótipos e TESTAR as novas percepções!!
+Criar protótipos e **TESTAR** as novas percepções!!
 
-Para isso, priorizamos as tarefas e criamos um MVP focado nas funcionalidades da BARRA DE BUSCA, CHAMADOS e CHATBOT!
+Para isso, priorizamos as tarefas e criamos um MVP focado nas funcionalidades da **BARRA DE BUSCA, CHAMADOS e CHATBOT!**
 
-![Funcionalidades Principais](https://ik.imagekit.io/llneva6qvex/Talent/2_1JF2UqJcn.PNG?updatedAt=1636502932570)
+![Funcionalidades Principais](https://ik.imagekit.io/bga7odqg1yl/HACKATON/Nosso_objetivo_rqy2J11m1.jpeg?updatedAt=1636589366803)
 
 ## 💺 3. EXPERIÊNCIA DO USUÁRIO
-Utilizamos o **FORMS** para criar um formulário onde questionamos ......
+Utilizamos o **FORMS** para criar um formulário onde questionamos as principais funcionalidades que utilizam, se sente alguma dificuldade no portal se gostariam de acessar a plataforma por outros dispositivos.
 
 ![Form de Pesquisa]() <!-- colocar gif do form aqui--> 
 
-### Feedbacks dos Usuários:
-Foi realizada uma pesquisa com os USÚARIOS da empresa com a finalidade de identificar o sentimento dos mesmos ao utilizar a plataforma, momento em que foram relatadas as dores e sugestões.
-![Feedback dos Usuários](https://ik.imagekit.io/bga7odqg1yl/HACKATON/Feedbackusu_S0LKIsui__.jpg?updatedAt=1636587548997)
-
-### Informações que gostariam de visualizar no site:
+### Como resultado obtivemos os seguintes tópicos:
 - _Local para buscas;_
 - _Uma área para poder abrir um novo Chamado de forma fácil e intuitiva;_
 - _Chatbot;_
@@ -56,12 +52,9 @@ Foi realizada uma pesquisa com os USÚARIOS da empresa com a finalidade de ident
 - _Local com perguntas e respostas;_
 - _Local onde enviar um formulário._
 
-## Em seguida configuramos nossas Histórias de Usuários:
-❶
-![História de Usuário 1](https://ik.imagekit.io/llneva6qvex/Talent/historia_de_usuario_1_McmNSPns5.PNG?updatedAt=1636503333600)
-  
-❷
-![História de Usuário 2](https://ik.imagekit.io/llneva6qvex/Talent/historia_de_usuario_2_5RumYoTw9.PNG?updatedAt=1636503333575)
+### Feedbacks dos Usuários:
+Foi realizada uma pesquisa com os USÚARIOS da empresa com a finalidade de identificar o sentimento dos mesmos ao utilizar a plataforma, momento em que foram relatadas as dores e sugestões.
+![Feedback dos Usuários](https://ik.imagekit.io/bga7odqg1yl/HACKATON/Feedbackusu_S0LKIsui__.jpg?updatedAt=1636587548997)
 
 
 ## Fluxograma
@@ -103,7 +96,8 @@ Os protótipos foram pensandos para facilitar a navegação e em trazer uma resp
 ![Teste usabilidade]()
 
 ## 🚧 5. MELHORIAS FUTURAS:
-- _Alguma coisa;_
+- _Implementação de hand talk;_
+- _Implementação de busca por voz;_
 
 
 ## 👩‍💻 6. AUTORAS:
@@ -133,4 +127,3 @@ Projeto realizado para o Bootcamp da **LABORATÓRIA** no Talent Fest com o apoio
       </a>
 
   </div>
-![Final]()
