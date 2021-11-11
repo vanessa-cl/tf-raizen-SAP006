@@ -18,7 +18,7 @@ function SearchSection({searchText, setSearchText}) {
 
     return (
       <section >
-            <h2 class="portal">Portal de Serviços</h2>
+            <h2 class="portal">Energia que Mobiliza</h2>
             <div  className="search-container">
               <div className="search">
                 <h1 className="h1">Olá, Maria</h1>
