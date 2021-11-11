@@ -54,11 +54,11 @@ const FormTicket = () => {
                 <label className="form-label" htmlFor="sector">Setor</label>
                 <div className="input-area">
                     <select className="form-input effect sector" name="sector" autoComplete="off" required onChange={handleChange}>
-                        <option value="">Selecione um setor</option>
-                        <option value="recursos-humanos">Recursos humanos</option>
-                        <option value="tecnologia-da-informação">Tecnologia da informação</option>
-                        <option value="transações-financeiras">Transações financeiras</option>
-                        <option value="facilities">Facilities</option>
+                        <option className="option" value="">Selecione um setor</option>
+                        <option className="option" value="recursos-humanos">Recursos humanos</option>
+                        <option className="option" value="tecnologia-da-informação">Tecnologia da informação</option>
+                        <option className="option" value="transações-financeiras">Transações financeiras</option>
+                        <option className="option" value="facilities">Facilities</option>
                     </select>
                     <span className="focus-border"></span>
                 </div>
