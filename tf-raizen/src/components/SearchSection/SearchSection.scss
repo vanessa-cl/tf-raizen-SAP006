@@ -71,3 +71,19 @@
         }
     }
 }
+
+@media screen and (max-width: 470px) {
+
+    .search-container {
+        height: 30vh;
+
+        .search {
+
+            .fa-search {
+                left: 71%;
+                top: 100%;
+            }
+        }
+    }
+
+}

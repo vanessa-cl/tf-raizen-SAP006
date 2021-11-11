@@ -5,6 +5,7 @@ import SearchSection from '../../components/SearchSection/SearchSection';
 import SearchResults from '../../components/SearchResults/SearchResults';
 import Footer from '../../components/Footer/Footer';
 import ImageSection from '../../components/ImageSection/ImageSection';
+import Chatbot from '../../components/Chatbot/Chatbot';
 import './Home.scss';
 
 import solititations from '../../images/1.png'
@@ -129,6 +130,7 @@ function Home() {
               </div>
             </section> 
             <ImageSection />
+            <Chatbot />
             <Footer />
         </main> 
       </>

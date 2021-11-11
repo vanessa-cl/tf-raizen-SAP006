@@ -6,3 +6,14 @@
     justify-content: center;
     align-self: center;
 }
+
+@media screen and (max-width: 470px) {
+    .image-container {
+        width: 90%;
+        height: 55vh;
+        
+        .image-people {
+            width: 100vw;
+        }
+    }
+}

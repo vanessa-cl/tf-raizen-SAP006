@@ -133,3 +133,29 @@ form > div > .sector:invalid:focus {
     background-repeat: no-repeat;
     background-position: 41rem 0.5rem;
 }
+
+@media screen and (max-width: 470px) {
+    .form-body {
+        margin: 5rem 2rem 0 0;
+        width: 100vw;
+        height: 49rem;
+        padding: 2rem 1rem;
+    }
+
+    .form-main-label {
+        width: 75vw;
+        margin-left: -3rem;
+    }
+
+    .input-area, .form-input, .form-button {
+        width: 21rem;
+        margin: 0;
+    }
+
+    .form-label {
+        margin: 0.5rem;
+    }
+
+}
+
+

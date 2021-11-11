@@ -27,3 +27,12 @@
     margin: 20px;
   }
 }
+
+@media screen and (max-width: 470px) {
+  
+  .chatbot-floating {
+    position: relative;
+    right: 0rem;
+  }
+
+}

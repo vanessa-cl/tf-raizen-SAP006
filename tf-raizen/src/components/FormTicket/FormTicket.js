@@ -4,6 +4,7 @@ import "./FormTicket.scss";
 import validateForm from "./Validate.js";
 import Footer from "../Footer/Footer";
 import swal from 'sweetalert';
+import Chatbot from '../../components/Chatbot/Chatbot';
 import BackHome from '../BackHome/BackHome';
 
 const FormTicket = () => {
@@ -87,6 +88,7 @@ const FormTicket = () => {
                 <input id="file-input" className="form-input" name="file" type="file" method="POST" encType="multipart/form-data" onChange={handleChange}></input>
                 <button className="form-button send" onClick={handleSend}>Enviar solicitação</button>
             </form>
+            <Chatbot />
             <BackHome />
             <Footer />
         </>
