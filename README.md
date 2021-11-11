@@ -1,4 +1,4 @@
-<img align="center" alt="Heroku" height="90" width="900" src="https://ik.imagekit.io/llneva6qvex/Talent/CSC_logo_horizontal_azul_lBu_7s3a3i.png?updatedAt=1636503122008">
+ <img align="center" alt="Heroku" height="90" width="900" src="https://ik.imagekit.io/llneva6qvex/Talent/CSC_logo_horizontal_azul_lBu_7s3a3i.png?updatedAt=1636503122008">
 
 
 <h2 align="center">Talent Fest</h2>
